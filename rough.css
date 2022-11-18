@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+/* global css */
+a, li{
+    list-style-type:none ;
+    text-decoration: none;
+}
+.head-container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background: url(./images/main.png);
+    position: relative;
+    color: white;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center;
+    justify-content: center;
+    width: 100vw; */
+}
+.overlay{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 0px solid red;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+.credential{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.btn{
+    height: auto;
+    width: auto;
+    outline: none;
+    color: white;
+    border: 0px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(141, 26, 26);
+}
+.btn:hover{
+    background-color: aqua;
+    color: black;
+}
+.btn:active{
+    background-color: rgb(255, 0, 98);
+    color: white;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+.filter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    padding: 20px;
+    margin-left: 350px;
+}
+.input-type, .input-type2{
+   height: 20px;
+   width: 15rem;
+   border: 2px solid black;
+   border-radius: 10px;
+   font-weight: 500;
+   outline: none;
+}
+.input-type2{
+    margin-left: 10px;
+}
+.intro-text{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 2rem;
+}
+ .logo a img{
+    position: absolute;
+    height: 10.9375rem;
+    width: 10.9375rem;
+    top: 10%;
+    left: 45%;
+}
+/* main content */
+.main-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+.food-infos{
+    height: auto;
+    width: 80%;
+    margin-bottom: 20px;
+    border: 0px solid black;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 32.5% 32.5% 32.5%;
+    grid-template-rows: 200px 200px;
+    padding: 0px;
+    column-gap: 10px;
+    row-gap: 30px;
+    background-color: transparent;
+}  
+.grid-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgb(245, 10, 10);
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px 30px 7px 30px;
+    background-color: rgb(239, 193, 193);
+}
+.img-price{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    border: 0px solid black;
+    background-color: transparent;
+}
+.food-img{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    border: 0px solid blue;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.price{
+    width: 100%;
+    height: 20%;
+    margin-top: 10px;
+    border: 0px solid red;
+    background-color: transparent;
+}
+.food-details{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    font-size: smaller;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 5px;
+    background-color: transparent;
+}
